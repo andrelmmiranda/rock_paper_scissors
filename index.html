@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css”>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Let's play Rock, Paper and Scissor</h1>
+    <div id="inital">
+        <form action="">
+            <div>
+                <input type="text" placeholder="Type your name here, pls!" name="player_name" maxlength="10">
+            </div>
+            <div>
+                <input type="button" value="Start Game" disabled>
+            </div>
+        </form>
+    </div>
+    <div class="main-container desabilitado">
+        <div id="placar">
+            <div>
+                <div id="nome_jogador" class="nome"></div>
+                <div id="pontos_jogador" class="pontos">0</div>
+            </div>
+            <div>
+                <div class="nome">Computador</div>
+                <div id="pontos_computador" class="pontos">0</div>
+            </div>
+        </div>
+        <div class="img">
+            <img id="pedra" src="./img/redimensionadas/rock_100x78.png" alt="pedra">
+            <img id="papel" src="./img/redimensionadas/paper_100x94.png" alt="papel">
+            <img id="tesoura" src="./img/redimensionadas/scissor_100x75.png" alt="tesoura">
+        </div>
+        <div id="result">
+           
+        </div>
+    </div>
+    <script src="js/script.js" defer></script>
+</body>
+</html>
